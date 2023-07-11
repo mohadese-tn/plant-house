@@ -7,7 +7,7 @@
 
 1) In the navbar menu, by clicking on home('خانه'), the user will be moved to the main page of any where.
 
-2)In the navbar menu, by hovering over the category('دسته بندی') item, a list will open, and by clicking on each item, the desired information will be displayed on the DOM with the help: Single Page Application.
+2) In the navbar menu, by hovering over the category('دسته بندی') item, a list will open, and by clicking on each item, the desired information will be displayed on the DOM with the help: Single Page Application.
 
 3) By clicking on the Sign up('ثبتنام') button, a pop-up text will be opened that takes your information and with click out of form, it will be closed.
 
