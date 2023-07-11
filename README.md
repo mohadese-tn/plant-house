@@ -3,6 +3,8 @@
 
 1- Project introduction: House plant - This is a multi-page site for keeping and buying houseplants. This site is a combination of SPA and MPA.
 -------------------------------------------------------------------
+!!!! This project is written in a modular way, so it is better to use the live server to run it.
+-------------------------------------------------------------------
 2- Features and capabilities:
 
 1) In the navbar menu, by clicking on home('خانه'), the user will be moved to the main page of any where.
