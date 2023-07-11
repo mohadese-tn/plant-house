@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assest/css/bigSizePlants.css">
+    <link rel="stylesheet" href="./assest/css/fonts.css">
+    <title>bigSizePlant</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="home">
+            <ul class="menu">
+                <li class="menu__item"><a href="./index.html" class="menu__link ">خانه</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">محصولات</a></li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">دسته بندی<i style="font-size:13px" class="fa">&#xf107;</i></a>
+                    </a>
+                    <ul class="dropdown">
+                        <li><a class="dropdown__link" href="/Succulent">ساکولنت</a></li>
+                        <li><a class="dropdown__link" href="/bigSizePlants">گیاه سایز بزرگ</a></li>
+                        <li><a class="dropdown__link" href="/floweringPlants">گیاه گلدار</a></li> 
+                    </ul>
+                </li>
+                <!-- <li class="menu__item"><button class="popup-login"> ثبت نام</button></li> -->
+            </ul>
+        </header>
+        
+        <section class="container">        
+            <div class="product-info">
+                <div class="product-info__note">
+                    <h2 class="product-info__title">گیاهان بزرگ </h2>
+                    <p class="product-info__detail">با خرید گیاهان بزرگ فضا و راهرو‌های ورودی به منزل و محیط‌های کاری خود را تبدیل به فضایی رویایی و باشکوه کنید. اگر قصد سفارش و خرید آنلاین و اینترنتی گیاهان سایز بزرگ را دارید، سفارش خود را به ما بسپارید. ما سفارش خرید گیاه بزرگ خانگی شما را با بهترین کیفیت و در کمتر از 4 ساعت به دست شما خواهیم رساند.</p>
+                </div>
+                <div class="product-info__image">
+                    <img src="./assest/images/3.jpg" >
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__list">
+                <h3 class="footer__list-title">خدمات </h3>
+                <ul class=" footer__service"> 
+                    <li class="footer__list-item"><a href="#">خدمات حضوری در محل  </a></li>
+                    <li class="footer__list-item"><a href="#">مشاوره تخصصی گل و گیاه </a></li>
+                    <li class="footer__list-item"><a href="#">همکاری با خانه گل و گیاه </a></li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h3 class="footer__list-title">ارتباط با ما</h3>
+                <ul class=" footer__contact">
+                    <li class="footer__list-item"><a href="#">تماس با ما</a></li>
+                    <li class="footer__list-item"><a href="#"> ایمیل: houseplant@gmail.com</a></li>
+                    <li class="footer__list-item"><a href="#">آدرس: تهران-خیابان انقلاب </a></li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h3 class="footer__list-title">پشتیبانی</h3>
+                <ul class=" footer__contact">
+                    <li class="footer__list-item"><a href="#">گزارش خطا</a></li>
+                    <li class="footer__list-item"><a href="#"> انتقادات و پیشنهادات</a></li>
+                    <li class="footer__list-item"><a href="#">کنسل کردن سفارش </a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- pop up login -->
+    <div id="backdrop"></div>
+    <div id="login_form">
+        <form>
+            <h2>ثبت نام</h2>
+            <label for="username">نام کاربری: </label><br>
+            <input type="text" placeholder="نام کاربری خود را وارد کنید" class="login-form__input login-form__username" required><br>
+            <label for="password">رمز:</label><br>
+            <input type="password" placeholder="رمز خود را وارد کنید" class="login-form__input login-form__password" required><br>
+            <button class="login-form__btn" type="submit">ثبت</button>
+        </form>
+    </div>
+    <script src="./assest/script/popUpSignup.js"></script>
+    <script src="./assest/script/spa.js" type="module"></script>
+
+</body>
+</html>

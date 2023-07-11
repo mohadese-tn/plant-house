@@ -1,0 +1,23 @@
+@import url(./style.css);
+body{
+    font-family: 'Vazir';
+    background-color: #E0DECA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    display:inline-block !important;
+    margin: 30px 100px;
+    background-color: #9EB23B;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    transition: 0.3s;
+}
+.btn:hover{
+    scale: 1.08;
+}

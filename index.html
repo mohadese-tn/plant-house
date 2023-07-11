@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="./assest/css/fonts.css">
+    <title>House plant</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="home " class="home-bg">
+            <ul class="menu">
+                <li class="menu__item"><a href="./index.html" class="menu__link ">خانه</a></li>
+                <li class="menu__item"><a href="" class="menu__link">محصولات</a></li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">دسته بندی<i style="font-size:13px" class="fa">&#xf107;</i></a>
+                    <ul class="dropdown">
+                        <li><a class="dropdown__link" href="/Succulent">ساکولنت</a></li>
+                        <li><a class="dropdown__link" href="/bigSizePlants">گیاه سایز بزرگ</a></li>
+                        <li><a class="dropdown__link" href="/floweringPlants">گیاه گلدار</a></li> 
+                    </ul>
+                </li>
+                <li class="menu__item"><button class="popup-login"> ثبت نام</button></li>
+            </ul>
+            <div class="logo">
+                <img src="./assest/images/icon.svg" >
+                <p>خانه گل و گیاه</p>
+            </div>
+        </header>
+        
+        <!-- product data -->
+        <section class="container" >
+            <h2 class="section-title">لیست محصولات</h2>
+            <!-- <div class="product" id="product">
+                <div class="product__image">
+                    <img src="./assest/images/1.jpg" >
+                </div>
+                <h2 class="product__title">فیکوس لیراتا</h2>
+                <div class="product__info">
+                    <h3 class="product__price">1,500,000<span>تومان</span></h3>
+                    <a href="./product.html?id=1" class="product__link">نمایش بیشتر</a>
+                </div>
+            </div>  -->
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__list">
+                <h3 class="footer__list-title">خدمات </h3>
+                <ul class=" footer__service"> 
+                    <li class="footer__list-item"><a href="#">خدمات حضوری در محل  </a></li>
+                    <li class="footer__list-item"><a href="#">مشاوره تخصصی گل و گیاه </a></li>
+                    <li class="footer__list-item"><a href="#">همکاری با خانه گل و گیاه </a></li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h3 class="footer__list-title">ارتباط با ما</h3>
+                <ul class=" footer__contact">
+                    <li class="footer__list-item"><a href="#">تماس با ما</a></li>
+                    <li class="footer__list-item"><a href="#"> ایمیل: houseplant@gmail.com</a></li>
+                    <li class="footer__list-item"><a href="#">آدرس: تهران - خیابان انقلاب </a></li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h3 class="footer__list-title">پشتیبانی</h3>
+                <ul class=" footer__contact">
+                    <li class="footer__list-item"><a href="#">گزارش خطا</a></li>
+                    <li class="footer__list-item"><a href="#"> انتقادات و پیشنهادات</a></li>
+                    <li class="footer__list-item"><a href="#">کنسل کردن سفارش </a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- pop up login -->
+    <div id="backdrop"></div>
+    <div id="login_form">
+        <form>
+            <h2>ثبت نام</h2>
+            <label for="username">نام کاربری: </label><br>
+            <input type="text" placeholder="نام کاربری خود را وارد کنید" class="login-form__input login-form__username" required><br>
+            <label for="password">رمز:</label><br>
+            <input type="password" placeholder="رمز خود را وارد کنید" class="login-form__input login-form__password" required><br>
+            <button class="login-form__btn" type="submit">ثبت</button>
+        </form>
+    </div>
+
+    <script src="assest/script/script.js"></script>
+    <script src="./assest/script/popUpSignup.js"></script>
+    <script src="./assest/script/spa.js" type="module"></script>
+</body>
+</html>

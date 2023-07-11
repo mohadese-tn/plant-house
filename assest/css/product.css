@@ -1,0 +1,44 @@
+@import url(./style.css);
+.popup-login{
+    position: absolute;
+    top: -2.4rem;
+    left: -7rem !important;
+}
+/* -----------start styling*/
+
+.menu__btn{
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin-right: 10px !important;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+.menu__btn:hover{
+    transform: translateX(10px);
+}
+.product-info{
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 10px;
+}
+.product-info__note{
+    margin-left:60px ;
+    
+}
+.product-info__title{
+    margin-bottom: 20px;
+}
+.product-info__detail{
+    line-height:30px;
+}
+.product-info__image img{
+    width:250px ;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+
+}
